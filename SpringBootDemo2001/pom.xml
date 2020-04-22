@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.thornBird</groupId>
-	<artifactId>sbd</artifactId>
+	<artifactId>SpringBootDemo2001</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpringBootDemo2001</name>
 	<description>Spring Boot Demo</description>
@@ -22,9 +22,16 @@
 	</parent>
 
 	<dependencies>
+	    <!-- spring boot web starter -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!-- spring dev tools -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
 		</dependency>
 
 		<dependency>
